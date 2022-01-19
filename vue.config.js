@@ -6,8 +6,8 @@ module.exports = {
     'vuetify'
   ],
   configureWebpack: config => {
-    config.output.filename = "js/[name].[contenthash].js";
-    config.output.chunkFilename = "js/[name].[contenthash].js";
+    // config.output.filename = "js/[name].[contenthash].js";
+    // config.output.chunkFilename = "js/[name].[contenthash].js";
 
     config.plugins.push(new PrerenderSpaPlugin({
       staticDir: path.join(__dirname, 'dist'),

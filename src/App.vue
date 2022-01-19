@@ -10,7 +10,7 @@
               size="100%"
             >
               <v-img
-                src="@/assets/me.jpg"
+                src="@/assets/me.webp"
                 max-height="200px"
                 max-width="200px"
               />
@@ -62,7 +62,7 @@
                     size="100%"
                   >
                     <v-img
-                      src="@/assets/chatmaps.png"
+                      src="@/assets/chatmaps.webp"
                     />
                   </v-avatar>
                 </v-card-title>
@@ -87,7 +87,7 @@
                     tile
                   >
                     <v-img
-                      src="@/assets/asteroid-dodger.png"
+                      src="@/assets/asteroid-dodger.webp"
                     />
                   </v-avatar>
                 </v-card-title>
