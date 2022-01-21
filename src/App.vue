@@ -20,7 +20,7 @@
             Eoin O'Reilly
           </v-card-title>
           <v-card-text class="py-0 text-center">
-            Welcome to my café
+            Software Engineer from Ireland
           </v-card-text>
           <v-card-text class="py-2 text-center">
             <v-btn
@@ -42,12 +42,12 @@
           </v-card-text>
         </v-card>
 
-        <div class="ma-10">
+        <div class="ma-10 mt-6">
           <v-row justify="center">
             <v-col
               class="text-center text-h6"
             >
-              The Menu
+              Projects
             </v-col>
           </v-row>
           <v-row>
@@ -56,7 +56,7 @@
               md="4"
               lg="2"
             >
-              <v-card href="https://chatmaps.art">
+              <v-card href="/chatmaps/index.html">
                 <v-card-title>
                   <v-avatar
                     size="100%"

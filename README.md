@@ -1,1 +1,2 @@
-Personal Site
+# Personal Site
+Site for hosting projects
