@@ -56,7 +56,7 @@
               md="4"
               lg="2"
             >
-              <v-card href="/chatmaps/index.html">
+              <v-card href="https://chatmaps.0x30.in">
                 <v-card-title>
                   <v-avatar
                     size="100%"
@@ -80,7 +80,7 @@
               md="4"
               lg="2"
             >
-              <v-card href="/asteroid-dodger/index.html">
+              <v-card href="https://asteroid-dodger.0x30.in">
                 <v-card-title>
                   <v-avatar
                     size="100%"
