@@ -47,7 +47,7 @@
             <v-col
               class="text-center text-h6"
             >
-              Menu
+              The Menu
             </v-col>
           </v-row>
           <v-row>
