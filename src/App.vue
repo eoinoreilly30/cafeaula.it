@@ -70,7 +70,7 @@
                   ChatMaps
                 </v-card-title>
                 <v-card-text>
-                  A p2p voice-calling app. Explore the map to see who's online and then give them a call
+                  A p2p voice-calling app. Explore the map to see who's online and give them a call
                 </v-card-text>
               </v-card>
             </v-col>
@@ -121,7 +121,7 @@
                   Grid Paint
                 </v-card-title>
                 <v-card-text>
-                  Click on the pixels to fill them in
+                  A public place to draw or write messages. Click on the pixels to fill them in
                 </v-card-text>
               </v-card>
             </v-col>
