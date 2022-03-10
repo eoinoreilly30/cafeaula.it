@@ -99,6 +99,32 @@
                 </v-card-text>
               </v-card>
             </v-col>
+
+            <v-col
+                sm="6"
+                md="4"
+                lg="2"
+            >
+              <v-card href="https://grid-paint.0x30.in">
+                <v-card-title>
+                  <v-avatar
+                      style="border: solid 1px lightgrey"
+                      size="100%"
+                      tile
+                  >
+                    <v-img
+                        src="@/assets/grid-paint.webp"
+                    />
+                  </v-avatar>
+                </v-card-title>
+                <v-card-title>
+                  Grid Paint
+                </v-card-title>
+                <v-card-text>
+                  Click on the pixels to fill them in
+                </v-card-text>
+              </v-card>
+            </v-col>
           </v-row>
         </div>
       </v-main>
