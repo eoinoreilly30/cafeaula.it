@@ -1,2 +1,2 @@
-# Home Page
+# Home
 Site for hosting projects
