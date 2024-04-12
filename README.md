@@ -1,2 +1,1 @@
-# Home
-Site for hosting projects
+# home
