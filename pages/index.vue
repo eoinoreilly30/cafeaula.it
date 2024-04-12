@@ -19,6 +19,49 @@
         <UDivider class="my-10 sm:w-1/2 w-10/12" />
 
         <div class="flex flex-col space-y-6 md:w-1/2 sm:w-2/3 w-full">
+          <NuxtLink href="https://clientsai.app/" target="_blank">
+            <UCard>
+              <div class="flex flex-row items-center space-x-4">
+                <NuxtImg
+                  src="/clientsai.png"
+                  width="60px"
+                  height="60px"
+                  alt="chatmaps icon"
+                />
+                <div class="flex flex-col justify-center">
+                  <div class="flex flex-row items-center space-x-2">
+                    <div class="text-lg font-semibold">ClientsAI</div>
+                    <UBadge color="primary" variant="soft">2024</UBadge>
+                  </div>
+                  <div>
+                    All your conversations in one manageable place. Connect your
+                    emails, video calls and messages. Let our AI do the rest.
+                  </div>
+                </div>
+              </div>
+            </UCard>
+          </NuxtLink>
+
+          <NuxtLink href="https://getsaasideas.com" target="_blank">
+            <UCard>
+              <div class="flex flex-row items-center space-x-4">
+                <NuxtImg
+                  src="/getsaasideas.png"
+                  width="60px"
+                  height="60px"
+                  alt="chatmaps icon"
+                />
+                <div class="flex flex-col justify-center">
+                  <div class="flex flex-row items-center space-x-2">
+                    <div class="text-lg font-semibold">Get SaaS Ideas</div>
+                    <UBadge color="primary" variant="soft">2024</UBadge>
+                  </div>
+                  <div>Find your next SaaS idea in hours, not weeks</div>
+                </div>
+              </div>
+            </UCard>
+          </NuxtLink>
+
           <NuxtLink href="https://chatmaps-75d1d.web.app/" target="_blank">
             <UCard>
               <div class="flex flex-row items-center space-x-4">
