@@ -35,7 +35,7 @@
                   </div>
                   <div>
                     All your conversations in one manageable place. Connect your
-                    emails, video calls and messages. Let our AI do the rest.
+                    emails, video calls and messages.
                   </div>
                 </div>
               </div>
@@ -179,5 +179,16 @@
 </template>
 
 <script setup lang="ts">
-useSeoMeta({ title: "home", description: "My home page" });
+useSeoMeta({
+  title: useRuntimeConfig().public.appName,
+  description: useRuntimeConfig().public.ogDescription,
+  ogTitle: useRuntimeConfig().public.ogTitle,
+  ogDescription: useRuntimeConfig().public.ogDescription,
+  ogImage: `${useRuntimeConfig().public.appURL}/opengraph.png`,
+  ogUrl: useRuntimeConfig().public.appURL,
+  twitterCard: "summary",
+  twitterTitle: useRuntimeConfig().public.ogTitle,
+  twitterDescription: useRuntimeConfig().public.ogDescription,
+  twitterImage: `${useRuntimeConfig().public.appURL}/opengraph.png`,
+});
 </script>

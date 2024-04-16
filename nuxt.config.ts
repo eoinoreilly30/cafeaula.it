@@ -6,6 +6,14 @@ export default defineNuxtConfig({
   colorMode: {
     preference: "light",
   },
+  runtimeConfig: {
+    public: {
+      appName: "home",
+      appURL: "https://xn--bdk.works",
+      ogTitle: "ツ",
+      ogDescription: "My home page",
+    },
+  },
   app: {
     head: {
       htmlAttrs: {
