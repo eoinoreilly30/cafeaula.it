@@ -19,6 +19,26 @@
         <UDivider class="my-10 sm:w-1/2 w-10/12" />
 
         <div class="flex flex-col space-y-6 md:w-1/2 sm:w-2/3 w-full">
+          <NuxtLink href="https://fomopricing.com" target="_blank">
+            <UCard>
+              <div class="flex flex-row items-center space-x-4">
+                <NuxtImg
+                  src="/fomopricing.png"
+                  width="60px"
+                  height="60px"
+                  alt="icon"
+                />
+                <div class="flex flex-col justify-center">
+                  <div class="flex flex-row items-center space-x-2">
+                    <div class="text-lg font-semibold">FomoPricing</div>
+                    <UBadge color="primary" variant="soft">2024</UBadge>
+                  </div>
+                  <div>Create pricing tables that sell.</div>
+                </div>
+              </div>
+            </UCard>
+          </NuxtLink>
+
           <NuxtLink href="https://clientsai.app/" target="_blank">
             <UCard>
               <div class="flex flex-row items-center space-x-4">
@@ -26,7 +46,7 @@
                   src="/clientsai.png"
                   width="60px"
                   height="60px"
-                  alt="chatmaps icon"
+                  alt="icon"
                 />
                 <div class="flex flex-col justify-center">
                   <div class="flex flex-row items-center space-x-2">
@@ -49,7 +69,7 @@
                   src="/getsaasideas.png"
                   width="60px"
                   height="60px"
-                  alt="chatmaps icon"
+                  alt="icon"
                 />
                 <div class="flex flex-col justify-center">
                   <div class="flex flex-row items-center space-x-2">
@@ -69,7 +89,7 @@
                   src="/chatmaps.png"
                   width="60px"
                   height="60px"
-                  alt="chatmaps icon"
+                  alt="icon"
                 />
                 <div class="flex flex-col justify-center">
                   <div class="flex flex-row items-center space-x-2">
@@ -92,7 +112,7 @@
                   src="/paint.png"
                   width="60px"
                   height="60px"
-                  alt="paint icon"
+                  alt="icon"
                 />
                 <div class="flex flex-col justify-center">
                   <div class="flex flex-row items-center space-x-2">
@@ -115,7 +135,7 @@
                   src="/asteroid_dodger.png"
                   width="60px"
                   height="60px"
-                  alt="asteroid dodger icon"
+                  alt="icon"
                 />
                 <div class="flex flex-col justify-center">
                   <div class="flex flex-row items-center space-x-2">
@@ -140,7 +160,7 @@
                 src="/github.png"
                 width="25px"
                 height="25px"
-                alt="github icon"
+                alt="icon"
               />
               <div>GitHub</div>
             </div>
@@ -152,7 +172,7 @@
                 src="/twitter.png"
                 width="25px"
                 height="25px"
-                alt="twitter icon"
+                alt="icon"
               />
               <div>Twitter</div>
             </div>
@@ -167,7 +187,7 @@
                 src="/linkedin.png"
                 width="18px"
                 height="18px"
-                alt="linkedin icon"
+                alt="icon"
               />
               <div>LinkedIn</div>
             </div>
