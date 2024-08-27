@@ -82,6 +82,26 @@
             </UCard>
           </NuxtLink>
 
+          <NuxtLink href="https://recipeunravel.com" target="_blank">
+            <UCard>
+              <div class="flex flex-row items-center space-x-4">
+                <NuxtImg
+                  src="/recipeunravel.png"
+                  width="60px"
+                  height="60px"
+                  alt="icon"
+                />
+                <div class="flex flex-col justify-center">
+                  <div class="flex flex-row items-center space-x-2">
+                    <div class="text-lg font-semibold">RecipeUnravel</div>
+                    <UBadge color="primary" variant="soft">2023</UBadge>
+                  </div>
+                  <div>Turn any recipe into an easy to follow guide</div>
+                </div>
+              </div>
+            </UCard>
+          </NuxtLink>
+
           <NuxtLink href="https://chatmaps-75d1d.web.app/" target="_blank">
             <UCard>
               <div class="flex flex-row items-center space-x-4">
